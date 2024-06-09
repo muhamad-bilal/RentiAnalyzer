@@ -1,0 +1,112 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+body{
+    background-color: #F7DCB9;
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+   }
+  /*background animation*/
+   @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.head{
+    display: flex;
+    justify-content: center;    
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 20px;
+    }
+
+.container .search-bar {
+    display: flex;
+    align-items: center;
+    width: 40%; 
+    margin: 0 auto !important;  /* Centers the search bar horizontally */
+   }
+   
+
+.search-bar input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  flex: 1; 
+  transition: all 0.2s ease-in-out; 
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #ccc; 
+}
+
+.search-bar button {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent; 
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-bar button:hover {
+  background-color: rgba(0, 0, 0, 0.1); 
+}
+
+.search-bar button i {
+  font-size: 1.2rem; 
+  color: #333; 
+}
+
+.copyright-notice {
+  text-align: center;  
+  font-size: 1.5rem; 
+  margin-bottom: 20px;   
+}
+
+.copyright-notice a {
+  color: #333; 
+  text-decoration: none;
+}
+
+.copyright-notice a:hover {
+  text-decoration: underline;
+}
+
+.fab.fa-github { 
+  font-size: 1rem; 
+  margin-left: 5px; 
+} 
+
+
+footer {
+  width: 100%; 
+  margin-top: auto; 
+  background-color: rgba(255, 255, 255, 0.7); 
+  position: fixed;
+  bottom: 0;
+}
+
