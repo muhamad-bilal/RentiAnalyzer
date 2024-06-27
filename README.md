@@ -19,7 +19,7 @@
 Here're some of the project's best features:
 
 *   Reddit Data Collection: Fetches recent comments from the "all" subreddit (or a specified subreddit) related to the celebrity.
-*   Sentiment Analysis: Uses the VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment analysis tool to calculate sentiment scores for each comment.
+*   Sentiment Analysis: Uses the VADER (Valence Aware Dictionary and sentiment Reasoner) sentiment analysis tool to calculate sentiment scores for each comment.
 *   Trend Analysis: Generates a line graph to visualize how average sentiment changes over different time periods.
 *   Sentiment Distribution: Creates a pie chart to show the proportion of positive negative and neutral comments.
 *   Sentiment Distribution Over Time: Illustrates how the proportion of each sentiment category changes across different time periods providing insight into shifts in public opinion.
